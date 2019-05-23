@@ -69,6 +69,8 @@ You need to provide the ```X-API-Key``` in headers with its token value to acces
 -    ```api/missingpersons/{id}/images``` : "It will return the image record that is associated with that missing person"
 -    ```api/users/{id}/notifications``` : "It will return all the notifications associated with that user"
 -    ```api/users/username/{username}``` : "It will return user who has given username"
+-    ```api/admins/username/{username}/password/{password}``` : It will return admin who matched with both given parameters
+-    ```api/users/username/{username}/password/{password}``` : It will return user who matched with both given parameters
 
 
 ### To create new record
